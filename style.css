@@ -1,0 +1,113 @@
+@charset "utf-8"
+    
+/* 
+    Stylesheet
+    Author: Roberto Jimenez
+    Date: February 23, 2022
+    Filename: style.css
+*/
+
+ @font-face { 
+ font-family: Quicksand; 
+ src: url('Quicksand-Regular.woff') format('woff'), 
+ url('Quicksand-Regular.ttf') format('truetype'); 
+}
+
+body{
+    background: hsl(240, 100%, 85%);
+   
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 95%; 
+    min-width: 640px; 
+    max-width: 1680px; 
+}
+
+/*--background--*/
+section {
+    background-color: lightgray;
+}
+
+#horizontalNavigation  {
+           color: white;
+}
+
+/* -font style--*/
+
+p {
+    margin: 2%;
+    padding: 3%;
+    letter-spacing: 1.2px;
+    line-height: 1.2em;
+    font-family: cursive;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 24px;
+}
+h2 {
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+}
+
+ol, ul, {
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    font-family: cursive;  
+}
+
+/*structual style*/
+header, nav, section, footer {
+    display: block;
+    background-color: lightgray;
+}
+
+/* Navigatuin */
+
+li {
+list-style-type: none;
+  margin: 2px;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#horizontalNavigation li {
+    display: block;
+    float: left;
+}
+#horizontalNavigation a { 
+ display: block; 
+ text-align: center; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*-columns-*/
+
+section#lefttcolumn {
+    clear: left;
+    float: left;
+    padding: 0.2em;
+    width: 42%;
+}
+section#rightcolumn {
+    float: left;
+    width: 57%;
+    height: auto;
+}
+
+footer {
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+
+
